@@ -1,16 +1,13 @@
 ---
 #### YAML inventory file
 hosts:
-  - host: luke-01.example.com
+  - host: rhel7.bcnconsulting.com
     groups: [group_1, datacenter_1]
 
-  - host: obi-wan-02.example.com
+  - host: node1.bcnconsulting.com
     hostvars:
-      ansible_host: 10.0.0.170
       lightsaber: blue
     groups: [group_1, datacenter_1]
 
-  - host: xwing-pilot-01.example.com
-    hostvars:
-      ansible_host: 10.0.0.160
+  - host: node2.bcnconsulting.com
     groups: [group_1]

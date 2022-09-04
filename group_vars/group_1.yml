@@ -1,2 +1,6 @@
 ---
 group: Rebels
+linux_config_motd:
+  motd_static: true
+  motd_default_message: "{{ group}}"
+...
