@@ -1,4 +1,5 @@
 ---
+#### YAML inventory file
 hosts:
   - host: stormtrooper-1[3-4].example.com
     groups: [group_2, datacenter_2]
