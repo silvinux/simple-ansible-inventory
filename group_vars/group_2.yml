@@ -2,5 +2,5 @@
 group: Galactic Empire
 linux_config_motd:
   motd_static: false
-  motd_default_message: "{{ group}}"
+  motd_default_message: "Message group2"
 ...
