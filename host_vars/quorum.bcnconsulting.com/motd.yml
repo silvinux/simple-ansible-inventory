@@ -2,4 +2,5 @@
 force_side: Sith
 linux_config_motd:
   motd_default_message: "Message from hosts_var"
+  motd_static: true
 ...
