@@ -1,2 +1,3 @@
 ---
 location: Tatooine
+linux_config_motd.motd_static: false

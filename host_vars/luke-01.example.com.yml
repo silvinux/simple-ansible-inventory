@@ -1,2 +1,4 @@
 ---
 force_side: Jedi
+ansible_host: 10.0.0.201
+...
